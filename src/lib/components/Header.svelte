@@ -27,9 +27,6 @@
 				>
 			</li>
 		</ul>
-		<ul>
-			<li><button>Add todo</button></li>
-		</ul>
 		<ul class="nav-links">
 			<li><a href="#todos">Todos</a></li>
 			<li><a href="#todonts">Todon'ts</a></li>
@@ -72,7 +69,7 @@
 
 	@media (max-width: 575px) {
 		header {
-			height: 160px;
+			height: 120px;
 			transition: transform 0.333s ease-out;
 		}
 
