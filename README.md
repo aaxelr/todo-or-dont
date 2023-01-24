@@ -6,6 +6,7 @@ Made with:
 
 - [SvelteKit](https://kit.svelte.dev/) - Full-stack framework
 - [Pico.css](https://picocss.com/) - Styling
+- [BoxIcons Solid](https://github.com/atisawd/boxicons) through [Icônes](https://icones.js.org/) - SVG icons
 - [SQLite](https://www.sqlite.org/index.html) - Database
 - [Prisma](https://www.prisma.io/) - ORM
 
