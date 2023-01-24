@@ -1,28 +1,26 @@
-# create-svelte
+# To do, or not to do
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+A basic Todo app where you can store todos and todon'ts.
 
-## Creating a project
+Made with:
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+- [SvelteKit](https://kit.svelte.dev/) - Full-stack framework
+- [Pico.css](https://picocss.com/) - Styling
+- [SQLite](https://www.sqlite.org/index.html) - Database
+- [Prisma](https://www.prisma.io/) - ORM
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Install dependencies with `pnpm install` (or `npm install` or `yarn`), start a development server:
 
 ```bash
-npm run dev
+pnpm run dev
+```
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+View database in the browser with Prisma studio:
+
+```bash
+npx prisma studio
 ```
 
 ## Building
@@ -30,7 +28,7 @@ npm run dev -- --open
 To create a production version of your app:
 
 ```bash
-npm run build
+pnpm run build
 ```
 
 You can preview the production build with `npm run preview`.
