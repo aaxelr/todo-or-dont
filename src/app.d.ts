@@ -11,7 +11,7 @@ declare global {
 		// interface PageData {}
 		// interface Platform {}
 	}
-	// store prisma client as a global variable while running in dev mode to 
+	// store prisma client as a global variable while running in dev mode to
 	// prevent the creation of a new instance of the prisma client at every HMR.
 	var prisma: PrismaClient;
 }
