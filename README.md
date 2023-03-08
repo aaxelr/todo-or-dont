@@ -12,14 +12,23 @@ Made with:
 
 ## Developing
 
-Install dependencies with `pnpm install` (or `npm install` or `yarn`), start a development server:
+Install dependencies: 
+```bash
+pnpm install
+```
+or `npm install` or `yarn`
 
+Sync local database using Prisma:
+```bash
+pnpx prisma db push
+```
+
+Start a development server:
 ```bash
 pnpm run dev
 ```
 
 View database in the browser with Prisma studio:
-
 ```bash
 npx prisma studio
 ```
